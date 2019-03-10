@@ -34,6 +34,15 @@ DMM.updateWorkCovers("covers");#将这些作品的封面全部下载至covers文
   
 DMM这个网站不知道为啥给番号加了各种莫名其妙的前缀和后缀，毫无规律可寻。本来想用正则匹配一下，放弃治疗了，反正去掉tk dod re h_123这些乱七八糟的前后缀你大概能看懂番号是啥就行行
 
+
+# 应用展示  
+Client.py是调用人脸识别平台Face++接口实现的一个【女优识图】应用
+随便从数据库里找了个叫立花里子的女优，谷歌找一张她的不是作品封面的照片  
+emmm，效果还不错，今后大概会做个网页版的吧:D  
+![](https://github.com/XiaYaoShiXin/AV-Hub/blob/master/preview/立花里子.jpg)
+![](https://github.com/XiaYaoShiXin/AV-Hub/blob/master/preview/app.PNG)
+
+
 # 吐槽  
 第一次尝试函数式编程，有点原教旨的几乎连一个for循环都没用wwww闭包警告！  
 还有 Python的import机制好蠢啊，还是喜欢es6
