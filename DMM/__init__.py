@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     from WorkInfoSpider import fetchWorkInfo;#作品信息抓取/解析器
     from WorkSpider import updateWorkInfo,updateFailedWorks,updateFailedIdolWorks,updateIdolWorks;#作品爬虫
-    from WorkPreviewSpider import downloadWorkCover,downloadWorkSnapShots,downloadWorkPreview,updateWorkCovers #预览信息下载器 下载封面、下载截图、下载宣传片、批量更新封面
+    from MediaDownloader import downloadProfile,updateProfies,downloadWorkCover,downloadWorkSnapShots,downloadWorkPreview,updateWorkCovers #预览信息下载器 下载封面、下载截图、下载宣传片、批量更新封面
 else:
     from .DataBase import *;
     from .IdolRank import updateIdolRankList;
@@ -20,6 +20,6 @@ else:
 
     from .WorkInfoSpider import fetchWorkInfo;
     from .WorkSpider import *;
-    from .WorkPreviewSpider import downloadWorkCover,downloadWorkSnapShots,downloadWorkPreview,updateWorkCovers 
+    from .MediaDownloader import downloadProfile,updateProfies,downloadWorkCover,downloadWorkSnapShots,downloadWorkPreview,updateWorkCovers 
 
 

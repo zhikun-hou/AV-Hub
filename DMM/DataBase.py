@@ -102,6 +102,9 @@ def getWorkList(search={},fields=None):
 def getWorkInfo(dmm_code):
     return _getWorkInfoCollection().find_one({"dmmCode":dmm_code});
 
+def getWorkInfoBy(field,value,fields):
+    return _getWorkInfoCollection().find_one({field:value},fields);
+
 def clearWorkInfo(selector={}):
     _getWorkInfoCollection().delete_many(selector);
 
