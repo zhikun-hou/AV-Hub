@@ -181,6 +181,6 @@ def searchFace(path):
 
 
 #妈卖批 写完才发现python没有尾递归优化
-print(searchFace("test/f_2300457_1.jpg"));
+print(searchFace("preview/立花里子.jpg"));
 
 #DMM.updateProfies("profile");
